@@ -1102,8 +1102,41 @@ p.line4 {
 
 
 
+.whitetopgirlgreay{
+  display: flex;
+width: 720px;
+height: 1100px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.video .whitetopgirlgreay {
+  width: 720px;
+height: 1100px;
+flex-direction: column;
+}
+.blackshort{
+  background: url("./assets/images/collection2.jfif") no-repeat center center;
+  display: flex;
+  width: 720px;
+  height: 1100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
 
-
+.skybluegirl{
+  background: url("./assets/images/collectiion4.jfif") no-repeat center center;
+  display: flex;
+  width: 720px;
+  height: 1100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
 
 .blackdress1 {
   background: url("./assets/images/blackdress1.png") no-repeat center center;
