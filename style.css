@@ -647,8 +647,8 @@ p.line4 {
 }
 
 .video .whitetopgirl1 {
-  width: 1086px;
-  height: 888px;
+  width: 720px;
+  height: 1100px;
   flex-shrink: 0;
 }
 
@@ -1009,12 +1009,9 @@ p.line4 {
 .image22 {
   background-size: cover;
   background-position: center center;
-  width: 100%;
-  /* Full width of the column */
-  height: 848px;
-  /* Maintain the specified height */
+  width: 720px;
+  height: 1100px;
   flex-shrink: 0;
-  /* Prevent shrinking */
 }
 .imagecollection {
   background: url("./assets/images/collectiion4.jfif") no-repeat center center;
@@ -1045,56 +1042,56 @@ p.line4 {
 .image2last{
 
   background: url("./assets/images/collectiion5.jfif") no-repeat center center;
-
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  /* Full width of the column */
-  height: 848px;
-  /* Maintain the specified height */
+  display: flex;
+  width: 720px;
+  height: 1100px;
   flex-shrink: 0;
-  /* Prevent shrinking */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
 }
 
 .image2last1{
 
   background: url("./assets/images/collectiion6.jfif") no-repeat center center;
 
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  /* Full width of the column */
-  height: 848px;
-  /* Maintain the specified height */
+  display: flex;
+  width: 720px;
+  height: 1100px;
   flex-shrink: 0;
-  /* Prevent shrinking */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
 }
 
 .image2last11{
 
   background: url("./assets/images/collectiion7.jfif") no-repeat center center;
 
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  /* Full width of the column */
-  height: 848px;
-  /* Maintain the specified height */
+  display: flex;
+  width: 720px;
+  height: 1100px;
   flex-shrink: 0;
-  /* Prevent shrinking */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
 }
 
 .image2last12{
 
   background: url("./assets/images/collectiion8.jfif") no-repeat center center;
 
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  /* Full width of the column */
-  height: 848px;
-  /* Maintain the specified height */
+  display: flex;
+  width: 720px;
+  height: 1100px;
   flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
   /* Prevent shrinking */
 }
 
@@ -1110,21 +1107,27 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
+background-size: cover;
+
 }
 .video .whitetopgirlgreay {
   width: 720px;
 height: 1100px;
 flex-direction: column;
+background-size: cover;
+
 }
 .blackshort{
   background: url("./assets/images/collection2.jfif") no-repeat center center;
-  display: flex;
   width: 720px;
   height: 1100px;
+  flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
+  background-size: cover;
+
+  display: flex;
   align-items: center;
-  flex-shrink: 0;
 }
 
 .skybluegirl{
@@ -1132,10 +1135,12 @@ flex-direction: column;
   display: flex;
   width: 720px;
   height: 1100px;
+  flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
+  background-size: cover;
+
 }
 
 .blackdress1 {
